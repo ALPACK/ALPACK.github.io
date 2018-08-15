@@ -1,17 +1,17 @@
 # Site settings
-title: Grupo Alpack
-description: A blog about lorem ipsum dolor sit amet
+title: ALPACK
+description: A technovation startup.
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Alpack
-user_description: Bicycle rights irony actually neutra typewriter lyft. Man bun taxidermy put a bird on it, umami yr ramps pop-up ugh bushwick chia lo-fi. Occupy bitters pour-over snackwave you probably haven't heard of them small batch. Cornhole mustache man bun letterpress echo park VHS.
-user_title: Projeto NESS
+username: ALPACK
+user_title: Light. Years ahead.
+user_description: sobre que tipo de startup somos... desenvolvimento de software e tal
 email: alpackstartup@gmail.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
+twitter_username: twitter username
+github_username:  ALPACK
+gplus_username:  google plus username
 
 # Google-analytics
 google-analytics:
