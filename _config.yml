@@ -6,16 +6,11 @@ description: Site sobre o grupo ALPACK
 
 # User settings
 username: ALPACK
-user_description: O Projeto N.E.S.S (Núcleo Englobado de Soluções e Sistemas) foi criado em parceria com Cesar School e o Laboratório de Objetos Urbanos Conectados. O grupo Alpack (grupo responsável por este projeto) é composto por 3 alunos de design e 3 de ciência da computação cujo o objetivo é solucionar o desafio proposto pelo nosso cliente L.O.U.Co. Dentro dessa problemática, com base da nossa pesquisa nós desenvolvemos a solução de agendamento como também a questão de dados dos usuários e sua comunicação dentro do laboratório.
-   Em termos do agendamento, o grupo Alpack utilizou uma plataforma já existente (Simplybookme) pois ela apresenta diversos features para deixar a identidade visual do L.O.U.Co   
-user_title: Projeto NESS
 email: alpack@gmail.com
-twitter_username: lorem_ipsum
-github_username:  ALPACK
-gplus_username:  lorem_ipsum
+github_username: ALPACK
 
 # Google-analytics
 google-analytics:
-  id: ""
+  id: "UA-130696275-1"
 
-exclude: ['package.json', 'src' , 'node_modules']
+exclude: ["package.json", "src", "node_modules"]

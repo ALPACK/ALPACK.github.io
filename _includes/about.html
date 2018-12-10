@@ -5,7 +5,7 @@
         height: auto;
     }
 
-    .design {
+    .left {
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -13,13 +13,18 @@
         float: left;
     }
 
-    .dev {
+    .right {
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 50%;
-        float: left;
+        float: right;
     }
+
+    .container {
+        height: auto;
+        overflow: hidden;
+    }   
 
     img {
           border-radius: 50%;
@@ -29,32 +34,106 @@
 <!-- #O GRUPO ALPACK -->
 
 <div class="user-details">
-    <h1> O grupo ALPACK </h1>
-    <p> {{site.user_description}} </p>
+    <h1> EQUIPE ALPACK </h1>
 </div>
 
-<div class="user">
-    <div class="design">
-        <h2>Designers</h2>
-        <p>Alexandre Junior</p>
-        <img src="../assets/img/Alexandro.jpg" id="member" alt="Alexandro">
-        <br>
-        <p>Cecília Frazão</p>
-        <img src="../assets/img/Cecilia.jpg" id="member" alt="Cecilia">
-        <br>
-        <p>Kleber Santana</p>
-        <img src="../assets/img/Kleber.jpg" id="member" alt="Kleber">
-
+<div class="container">
+    <div class="user">
+        <div class="left">
+            <h3></h3>
+            <p>
+                Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem
+                Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem
+                Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem
+            </p>
+        </div>
+        <div class="right">
+            <h3>Alexandre Junior (UI)</h3>
+            <img src="../assets/img/Alexandro.jpg" id="member" alt="Alexandro">
+        </div>
     </div>
-    <div class="dev">
-        <h2>Desenvolvedores</h2>
-        <p>Leonardo Melo</p>
-        <img src="../assets/img/Leo.png" id="member" alt="Leo">
-        <br>
-        <p>Arthur Reis</p>
-        <img src="../assets/img/ReisO.png" id="member" alt="Reis0">
-        <br>
-        <p>Pedro Farias</p>
-        <img src="../assets/img/Pedro.png" id="member" alt="Pedro">
+
+    <div class="user">
+        <div class="left">
+            <h3>Cecília Frazão (UX)</h3>
+            <img src="../assets/img/Cecilia.jpg" id="member" alt="Cecilia">
+        </div>
+        <div class="right">
+            <h3></h3>
+            <p>
+                Estudante de Design da Cesar, com 20 anos de idade, apresenta habilidades de desenho e trabalhos manuais como também
+                tem conhecimento na área de arquitetura e administração. Além disso, é fluente em inglês e tem o nível básico de
+                japonês. Tem interesse em trabalhar na parte de animação como também na área de jogos. Teve participação de trabalhar
+                com UX e UI no Projeto NESS.
+            </p>
+        </div>
+    </div>
+
+    <div class="user">
+        <div class="left">
+            <h3></h3>
+            <p>
+                Estudante de Design da Cesar School, 24 anos de idade, possui grande conhecimento
+                na área de jogos e gamificação, possui destreza com trabalhos manuais, 
+                tem experiência com edição de fotos e ilustrações digitais. Possui inglês avançado. 
+                Tem como objetivo principal trabalhar na área de jogos como Game lefter. 
+                Participação no Projeto NESS como UX e UI lefter.
+            </p>
+        </div>
+        <div class="right">
+            <h3>Kleber Santana (UX)</h3>
+            <img src="../assets/img/Kleber.jpg" id="member" alt="Kleber">
+        </div>
+    </div>
+</div>
+<div>
+    <div class="user">
+        <div class="left">
+            <h3>Arthur Reis (Tester)</h3>
+            <img src="../assets/img/ReisO.png" id="member" alt="Reis0">
+        </div>
+        <div class="right">
+            <h3></h3>
+            <p>
+                Estudante de Ciência da Computação do Cesar, 19 anos, sempre muito interessado em assuntos 
+                relacionados a computadores e astronomia. Se descobriu na área de forma natural. 
+                Com bastante interesse em outras culturas e línguas, principalmente da Ásia, atualmente 
+                estuda chinês e japonês. Tem bastante interesse em trabalhar com tecnologia relacionada a astronomia e música.
+            </p>
+        </div>
+    </div>
+
+    <div class="user">
+        <div class="left">
+            <h3></h3>
+            <p>
+                Com 17 anos de idade está seguindo o caminho que sempre sonhou, o da tecnologia, 
+                e mais especificamente a criação das novas tecnologias, visando revolucionar e 
+                melhorar o ambiente ao seu redor com os seus conhecimentos. Hoje, aluno da CESAR School, 
+                está desenvolvendo habilidades relacionadas ao desenvolvimento de software e a resolução 
+                de problemas, sendo hoje parte do time de desenvolvedores do grupo ALPACK.
+            </p>
+        </div>
+        <div class="right">
+            <h3>Pedro Henrique (Front-end)</h3>
+            <img src="../assets/img/Pedro.png" id="member" alt="Pedro">
+        </div>
+    </div>
+
+    <div class="user">
+        <div class="left">
+            <h3>Leonardo Melo (Back-end)</h3>
+            <img src="../assets/img/Leo.png" id="member" alt="Leo">
+        </div>
+        <div class="right">
+            <h3></h3>
+            <p>
+                Aos 19 anos, abandonou o curso de Fisioterapia para seguir um caminho diferente. 
+                Foi saindo da zona de conforto e deixando a busca por estabilidade para trás que 
+                desenvolveu autoconhecimento e assertividade para encontrar-se em Ciência da Computação. 
+                Adquiriu conhecimentos em desenvolvimento de software, metodologias ágeis e resolução de 
+                problemas. Hoje, aos 21 anos, faz parte do time de rights da ALPACK.
+            </p>
+        </div>
     </div>
 </div>
